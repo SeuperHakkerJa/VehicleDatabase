@@ -98,7 +98,7 @@ CREATE TABLE `vehicle` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1
 ```
 
-Play around with this sample baby sized sample data:
+Play around with this baby sized sample data:
 
 ```
 INSERT INTO vehicle (Id, Year, Make, Model) VALUES (0001,2015, "BMW", "M3");
