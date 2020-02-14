@@ -1,0 +1,5 @@
+vehicles/main/Controller.class
+vehicles/main/Vehicle.class
+vehicles/test/testVehicle.class
+vehicles/main/VehicleDAO.class
+vehicles/test/testDAO.class
