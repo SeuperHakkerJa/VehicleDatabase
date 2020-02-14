@@ -86,7 +86,7 @@ Personalize all fields essential for JDBC to connect to your local database, the
 Connect to the production database, my creating a new mySQL database:
 ```
 CREATE DATABASE `VehicleCRUD`;
-USE VEHICLEDB;
+USE VehicleCRUD;
 
 CREATE TABLE `vehicle` (
   `Id` int(11) NOT NULL  ,
