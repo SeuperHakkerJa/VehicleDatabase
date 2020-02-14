@@ -1,5 +1,5 @@
 CREATE DATABASE `VehicleCRUD`;
-USE VEHICLEDB;
+USE VehicleCRUD;
 
 CREATE TABLE `vehicle` (
   `Id` int(11) NOT NULL  ,
