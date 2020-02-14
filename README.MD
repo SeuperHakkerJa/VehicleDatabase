@@ -1,5 +1,5 @@
 
-# [VehicleCRUD][1]  MAVEN PROJECT
+# [VehicleCRUD]  MAVEN PROJECT
 ## Project Overview:
 This project provide basic CRUD functionalities on a vehicle database. Filtering vehicles given certain conditions is also allowed. I utilize maven framwork, servlet services to build a client to help users visualize data in the database. The project uses JDBC services to provide a in-memory persistent implementation. A series of tests are done via JUnit, allowing automated tested for proper functionality.
 
