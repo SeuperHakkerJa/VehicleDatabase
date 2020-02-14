@@ -103,5 +103,33 @@ https://www.dev2qa.com/how-to-deploy-a-maven-project-to-tomcat-from-eclipse/
 |filteredList.jsp | Displaying all results after finding vehicles that satisfy certain conditions.
 |Error.jsp | Displaying all exception during services, including range of year out of range exception, integer conversion errors, .etc
 
+# Demo
+Demonstrate basic functionality with a small database of vehicles. The client looks like this:
+
+![Image of List](pic/list.jpeg)
+
+
+When a customer tries to add vehicle entity into the data base, click on Add New Vehicles:
+
+![Image of Add](pic/add.jpeg)
+
+
+Edit attributes of a vehicle:
+
+![Image of Edit](pic/edit.jpeg)
+
+
+Filter to find vehicles:
+
+![Filter](pic/find.jpeg)
+
+For example, if users are looking for vehicles from 2020:
+
+![pic2020](pic/2020.jpeg)
+
+
+If user violates certain contrains, like range of year, error message returns.
+
+![picError](pic/Error.jpeg)
 
 
