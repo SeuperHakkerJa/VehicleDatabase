@@ -83,6 +83,36 @@ Personalize all fields essential for JDBC to connect to your local database, the
 </context-param>
 ```
 
+Connect to the production database, my creating a new mySQL database:
+```
+CREATE DATABASE `VehicleCRUD`;
+USE VEHICLEDB;
+
+CREATE TABLE `vehicle` (
+  `Id` int(11) NOT NULL  ,
+  `Year` int(4) NOT NULL,
+  `Make` varchar(128) NOT NULL,
+  `Model` varchar(45) NOT NULL,
+  PRIMARY KEY (`Id`),
+  UNIQUE KEY `Id_UNIQUE` (`Id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1
+```
+
+Play around with this sample baby sized sample data:
+
+```
+INSERT INTO vehicle (Id, Year, Make, Model) VALUES (0001,2015, "BMW", "M3");
+INSERT INTO vehicle (Id, Year, Make, Model) VALUES (0002,2014, "BMW", "M4");
+INSERT INTO vehicle (Id, Year, Make, Model) VALUES (0003,2017, "BMW", "M5");
+INSERT INTO vehicle (Id, Year, Make, Model) VALUES (0004,2011, "BMW", "M6");
+INSERT INTO vehicle (Id, Year, Make, Model) VALUES (0016,2012, "BMW", "X1");
+INSERT INTO vehicle (Id, Year, Make, Model) VALUES (0254,2019, "BMW", "X2");
+INSERT INTO vehicle (Id, Year, Make, Model) VALUES (1462,2020, "BMW", "X3");
+INSERT INTO vehicle (Id, Year, Make, Model) VALUES (10007,2020, "BMW", "X4");
+INSERT INTO vehicle (Id, Year, Make, Model) VALUES (23333,2020, "BMW", "X2");
+INSERT INTO vehicle (Id, Year, Make, Model) VALUES (6666,2001, "BMW", "M3");
+
+```
 
 Then feel free to deploy the program on TomCat server to use: ( a link to a tutorial on the subject)
 https://www.dev2qa.com/how-to-deploy-a-maven-project-to-tomcat-from-eclipse/
